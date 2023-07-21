@@ -1,0 +1,18 @@
+Esta es una aplicación simple de tareasm en la que el usuario se registra y puede crear sus tareas.
+
+el usuario tiene como atributos un nombre, un email y una contraseña.
+
+las tareas tienen como atributos un titulo, una descripción y una fecha de realización.
+
+
+Librerias usadas:
+
+express:  como framework para el backend.
+bcryptjs: para encriptar las contraseñas de los usuarios.
+cookie-parser: nos permite ver las cookies en formato json para desarrollo
+dotenv:  para crear archivos de ambiente
+jsonwebtoken: para los token de verificación
+mongoose: para trabajar con mongodb como base de datos.
+morgan: para ver por consola las peticiones que se hacen a nuestro servidor de back
+nodemon: para no tener que estar reiniciando todo el rato el servidor, y que este se actualize de manera automatica
+zod: para creas esqeumas de validacion de datos.
